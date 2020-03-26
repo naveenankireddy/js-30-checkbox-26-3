@@ -1,0 +1,14 @@
+.inbox{
+    max-width: 350px;
+    margin: 100px auto;
+    background: wheat;
+    border-radius: 7px;
+}
+.item{
+    display: flex;
+    align-items: center;
+ border-bottom: 3px solid black;
+}
+input:checked + p {
+    text-decoration: line-through;
+}
